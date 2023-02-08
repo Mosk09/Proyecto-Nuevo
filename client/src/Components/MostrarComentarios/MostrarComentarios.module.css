@@ -1,0 +1,13 @@
+.divComents{
+    background-color: white;
+    color: rgb(54, 54, 54);
+    margin: 3px;
+    padding-top: 10px;
+
+}
+.titleComents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

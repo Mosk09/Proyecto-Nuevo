@@ -1,0 +1,8 @@
+.boton {
+  margin: 28px;
+  width: 140px;
+  border: none;
+  border-radius: 7px;
+  background: var(--clr-7-R);
+  color: var(--clr-0);
+}

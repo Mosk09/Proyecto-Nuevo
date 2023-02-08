@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: row; */
+  margin-top: 21px;
+  margin-bottom: 21px;
+  justify-content: space-between;
+  width: 100%;
+  scroll-snap-type: both mandatory;
+  overflow-x: scroll;
+}
+.format {
+  margin: 14px;
+}
+
+ .container::-webkit-scrollbar {
+  width: 7px;
+
+  
+}
+.container::-webkit-scrollbar-thumb {
+  width: 5px;
+  background: rgb(115, 115, 115);
+  border-radius: 10px;
+  background: rgb(255, 33, 33);
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  scroll-snap-align: start;
+
+}

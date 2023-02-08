@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Secular+One&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.table{
+    width: 80%;
+    height: 60%;
+}
+.tbody td{
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    text-align: center;
+    background-position: center;
+    object-fit: cover;
+    width: auto;
+    max-height: 90px;
+    overflow: hidden;
+    background-color: var(--background-color);
+
+}
+.img{
+    margin: 5px;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 10px;
+
+}
+.table td:nth-child(1){
+    width:70px;
+   
+ 
+}
+
+
+.buton1{
+    border: none;
+    /* color: red; */
+    font-size: 30px;
+    color: var(--text-color)
+
+}
+.tdTitle{
+   margin: 5px;
+    font-size: 35px;
+    font-family: 'Chathura', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 33, 33);
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+
+
+}
+.buton3{
+border: none;
+color: rgb(255, 33, 33);
+font-size: 20px;
+
+}
+
+.h2{
+ right: 10px;
+}
+.backbuton{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.back{
+    margin:30px;   
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(255, 33, 33);
+    border-color: rgb(255, 33, 33);
+}
+.back1{
+    margin:30px;   
+    width: 200px;
+    padding: 5px;
+    border:none;
+    color: rgb(255, 33, 33);
+    border-radius: 20px;
+}
+.back2{
+    margin:30px;   
+    width: 200px;
+    padding: 5px;
+    border:none;
+    color: rgb(0, 149, 22);
+    border-radius: 20px;
+}
+.back1:hover {
+    background-color:rgb(255, 33, 33);
+    color: white;
+    border-radius: 20px;
+}
+.back:hover {
+    background-color:rgb(255, 33, 33);
+    color: white;
+    border-radius: 20px;
+}
+.back2:hover {
+    background-color: rgb(0, 149, 22);;
+    color: white;
+    border-radius: 20px;
+}
+
+.span{
+    font-size: 30px;
+}

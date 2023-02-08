@@ -1,0 +1,18 @@
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background:rgb(234, 234, 234);
+    border-style: solid;
+    border-color: rgb(255, 33, 33);
+    border-width: 2px 0 2px 0;
+}
+.conteiner:hover {
+    /* border-width: 3px 0 3px 0; */
+}
+.img{
+    width: 13rem;
+    margin: 10px;
+
+}

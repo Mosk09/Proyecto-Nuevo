@@ -1,0 +1,70 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 280px;
+    width: 900px;
+    border: 1px solid grey;
+    position: relative;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+.img{
+    min-width: 40%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 40%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;  
+}
+.h3{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 10px;
+}
+.p{
+    position: absolute;
+    top: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.buton{
+    border: 1px solid rgb(255, 33, 33); ;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px;
+    color:rgb(255, 33, 33);
+    position: absolute;
+    bottom: 10px;
+    transition: 0.2s ease;
+}
+.buton:hover{
+ background-color: rgb(255, 33, 33);
+ color: white;
+}

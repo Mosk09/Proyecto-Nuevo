@@ -1,0 +1,23 @@
+.user{
+    font-size: 28px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 33, 33);
+    /* position: absolute;
+    left: 23%; */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contButon{
+display: flex;
+}
+.butonA{
+
+    border: none;
+    font-size: 17px;
+    color: rgb(255, 33, 33);
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}

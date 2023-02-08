@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 77%;
+  
+}
+.left {
+  align-items: flex-start;
+  margin-right: 14px;
+}
+.center {
+  align-items: center;
+}
+.right {
+  align-items: flex-end;
+  margin-left: 14px;
+}

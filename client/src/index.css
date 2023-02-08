@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body {
+  margin: 0;
+  font-family: Consolas;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: var(--box-shadow);
+  border: none;
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+  /* background-image: var(--image); */
+  background-attachment: fixed;
+  background-position: center center;
+  background-size:cover;
+  font-family: 'Secular One', sans-serif;
+}
+
+body.light {
+  --background-color: /* var(--clr-9) */ rgb(239, 238, 238);
+  --text-color:  rgb(41, 41, 41);
+  --box-shadow: 0 0 7px var(--clr-9);
+  --border: 1px solid rgb(126, 126, 126);
+
+  /* --image: url(../public/image/lightBack.jpg); */
+  --pepe: rgb(255, 33, 33);
+  /* --image: url(https://digwallpapers.com/wallpapers/full/2/9/f/100844-3840x2160-white-background-desktop-4k.jpg); */
+}
+body.dark {
+  --background-color: rgb(51, 51, 51)/* var(--clr-7-05) */;
+  --text-color:  rgb(243, 243, 243);;
+  --box-shadow: 0 0 7px var(--clr-0);
+  --border: 1px solid rgb(255, 33, 33);
+  /* --image: url(https://wallpapers.com/images/featured/yduvczxgolxxu1nk.jpg); */
+}
+
+/* #h1 {
+  color: var(--text-color);
+}
+#h1.light {
+  --text-color: var(--clr-10-R);
+}
+#h1.dark {
+  --text-color: var(--clr-0-R);
+} */
+
+#image {
+  width: 100vw;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.7s ease-in-out;
+  background-image: var(--image);
+}
+
+code {
+  font-family: Consolas;
+}
+:root {
+  /* solid */
+  --clr-0: rgb(255, 255, 255);
+  --clr-1: rgb(248, 249, 250);
+  --clr-2: rgb(233, 236, 239);
+  --clr-3: rgb(222, 226, 230);
+  --clr-4: rgb(206, 212, 218);
+  --clr-5: rgb(173, 181, 189);
+  --clr-6: rgb(108, 117, 125);
+  --clr-7: rgb(73, 80, 87);
+  --clr-8: rgb(52, 58, 64);
+  --clr-9: rgb(33, 37, 41);
+  --clr-10: rgb(7, 7, 7);
+  /* glass 0.5*/
+  --clr-0-05: rgba(255, 255, 255, 0.5);
+  --clr-1-05: rgba(248, 249, 250, 0.5);
+  --clr-2-05: rgba(233, 236, 239, 0.5);
+  --clr-3-05: rgba(222, 226, 230, 0.5);
+  --clr-4-05: rgba(206, 212, 218, 0.5);
+  --clr-5-05: rgba(173, 181, 189, 0.5);
+  --clr-6-05: rgba(108, 117, 125, 0.5);
+  --clr-7-05: rgba(73, 80, 87, 0.5);
+  --clr-8-05: rgba(52, 58, 64, 0.5);
+  --clr-9-05: rgba(33, 37, 41, 0.5);
+  --clr-10-05: rgba(7, 7, 7, 0.5);
+  /* glass 0.25*/
+  --clr-0-025: rgba(255, 255, 255, 0.25);
+  --clr-1-025: rgba(248, 249, 250, 0.25);
+  --clr-2-025: rgba(233, 236, 239, 0.25);
+  --clr-3-025: rgba(222, 226, 230, 0.25);
+  --clr-4-025: rgba(206, 212, 218, 0.25);
+  --clr-5-025: rgba(173, 181, 189, 0.25);
+  --clr-6-025: rgba(108, 117, 125, 0.25);
+  --clr-7-025: rgba(73, 80, 87, 0.25);
+  --clr-8-025: rgba(52, 58, 64, 0.25);
+  --clr-9-025: rgba(33, 37, 41, 0.25);
+  --clr-10-025: rgba(7, 7, 7, 0.25);
+
+  /* solid red */
+  --clr-0-R: #ffc800;
+  --clr-1-R: #ffb400;
+  --clr-2-R: #ffa000;
+  --clr-3-R: #ff8c00;
+  --clr-4-R: #ff7800;
+  --clr-5-R: #ff6400;
+  --clr-6-R: #ff5000;
+  --clr-7-R: #ff3c00;
+  --clr-8-R: #ff2800;
+  --clr-9-R: #ff1400;
+  --clr-10-R: #ff0000;
+  --clr-11-R: rgb(117, 0, 0);
+  --clr-12-R: linear-gradient(
+    90deg,
+    rgba(117, 0, 0, 1) 0%,
+    rgba(159, 0, 0, 1) 19%,
+    rgba(190, 0, 0, 1) 39%,
+    rgba(227, 0, 0, 1) 74%,
+    rgba(254, 0, 0, 1) 100%
+  );
+}

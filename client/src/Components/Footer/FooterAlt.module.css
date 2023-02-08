@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    border: 0.3px solid grey;
+    color: rgb(247, 247, 247);
+    background-color: rgb(161, 0, 0);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h3{
+    color:rgb(255, 255, 255);
+}
+.li{
+    margin-top: 20px;
+}
+.logo{
+    width: 300px;
+}

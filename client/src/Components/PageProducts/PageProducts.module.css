@@ -1,0 +1,67 @@
+.container {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.filtros {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+.contDetails {
+  border: 1px solid rgba(210, 210, 210, 0.8);
+  width: 70%;
+  height: 280px;
+  margin: 21px 0 0 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+.title {
+  font-size: 21px;
+  color: orangered;
+  font-weight: 700;
+}
+.imageCont {
+  width: 210px;
+  height: 210px;
+  object-fit: contain;
+  margin-left: 70px;
+}
+.contSpecs {
+  margin-top: 42px;
+  margin-right: 70px;
+}
+.brand {
+  font-size: 28px;
+  font-weight: 500;
+}
+.price {
+  font-size: 17px;
+  font-weight: 400;
+  color: orangered;
+}
+.details {
+  font-size: 21px;
+  color: dimgrey;
+}
+.section3 {
+  width: 210px;
+  padding-top: 28px;
+}
+.carrito {
+  height: 84px;
+  margin-top: 25px;
+}
+.addProd {
+  width: 140px;
+  height: 35px;
+  background-color: orangered;
+  border: none;
+  border-radius: 7px;
+  margin-top: 14px;
+}
+.containerp {
+display: flex;
+justify-content: center;
+align-items: center;
+}

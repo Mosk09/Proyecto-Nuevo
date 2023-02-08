@@ -1,0 +1,100 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border: 1px solid grey ;
+    border-radius: 3px;
+    transition: 0.2s ease;
+    margin: 8px;
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 10px white;
+    cursor: pointer;
+}
+.img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 70%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+.title{
+    position: absolute;
+    color: grey;
+    bottom: 70px;
+}
+.price{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+
+    
+}
+.cardPrice{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.hr{
+    width: 80%;
+    height: 3px;
+    border: none;
+    margin-right: auto ;
+    margin-left: auto; 
+   background-color: grey;
+}
+
+.addCart{
+    font-size: 20px;
+    color: red;
+    margin-left: 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+}
+.addCart:hover{
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+    transform: scale(1.05);
+}
+.desc{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+   position: absolute;
+   top:20px;
+    right: 8px;
+color:white;
+    background-color: rgb(0, 192, 3);
+    box-shadow: 2px 2px 2px 0px rgb(0, 255, 0);
+}
+.divDisc{
+    display: flex;
+
+    flex-direction: column;
+}
+.discount{
+    font-size: 20px;
+    width: 50px;
+    color: red;
+    position: absolute;
+    left: 3px;
+    top: 15px;
+    text-decoration: line-through 2px;
+    opacity: 0.5;
+    position: absolute;
+    left: 40px;
+}

@@ -1,0 +1,67 @@
+.container {
+  height: 112px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: var(--clr-2);
+  border-radius: 14px;
+  box-shadow: rgb(0 0 0 / 63%) 0px 20px 30px;
+  border-right: 2.1px solid var(--clr-0-025);
+  border-bottom: 2.1px solid var(--clr-0-025);
+  backdrop-filter: blur(1.4px);
+  aspect-ratio: auto;
+}
+.containerAux {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.containerLogo {
+  margin-top: 14px;
+}
+.logo {
+  width: 280px;
+}
+.containerBars {
+  width: 50%;
+}
+.auxContainer {
+  height: 56px;
+  margin-top: 20px;
+  margin-bottom: -35px;
+}
+.containerShopCart {
+  justify-content: end;
+  color: var(--clr-7-R);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+  font-size: 30px;
+  color:var(--clr-7-R);
+  border:none; 
+}
+.luna:hover{
+  border:none;
+  background:var(--clr-11-R);
+  background:var(--clr-12-R);
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 0 var(--clr-11-R);
+}
+.buttonLogo{
+  border: none;
+}
+.lightmodeAndCart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

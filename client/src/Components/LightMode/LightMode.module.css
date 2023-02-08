@@ -1,0 +1,42 @@
+/* #darkMode {
+  background-size: 30px 30px;
+  width: 45px;
+  height: 45px;
+  filter: grayscale(100%);
+  border-radius: 50%;
+  border: none;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+  font-size: 30px;
+  color:  white;
+}
+
+#darkMode:hover {
+  filter: none;
+  background-color: white;
+  cursor: pointer;
+}
+#darkMode.clicked {
+  filter: none !important; 
+}
+  
+  */
+
+.negro{
+  color:rgb(255, 247, 0);
+  font-size: 26px;
+  border: none;
+  /* position: absolute;
+  right: 0; */
+  margin-left: 20px;
+  
+}
+.blanco{
+  color:rgb(51, 51, 51);
+  font-size: 26px;
+  border: none;
+  /* position: absolute;
+  right: 0; */
+  margin-left: 20px;
+
+}
+
